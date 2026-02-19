@@ -1,6 +1,6 @@
 <?php 
-include "admin/db.php"; 
-
+include ("admin/db.php"); 
+    
 if (!isset($_SESSION['user_id'])) {
     echo "<script>
         alert('Please log-in to access your shopping-bag.');
